@@ -1,0 +1,9 @@
+[Unit]
+Description=Shellgeibot for RocketChat
+After=networkset.service
+Requires=docker.service
+[Service]
+ExecStart=/shellscripts/shellgeibot_rocketchat.sh
+Type=idle
+[Install]
+WantedBy=multi-user.target
