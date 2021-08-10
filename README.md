@@ -1,7 +1,7 @@
 # Shellgeibot_forRocket.Chat
 Shellgeibot for Rocket.Chat
 
-必要環境
+必要環境/Need
 -------------
 systemd,
 docker,
